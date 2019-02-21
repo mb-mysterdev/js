@@ -15,7 +15,7 @@ const entrepreneurs = [
 
 function allH() {
 
-        a = entrepreneurs.values();
+        /*a = entrepreneurs.values();
         for (const value of a) {
             year = value.year
             if ( year > 1970 && year < 1980){
@@ -39,11 +39,14 @@ function allH() {
             age = (year - 2019);
                 console.log(age)
             
-        }
+        }*/
         a = entrepreneurs.values();
+        hash = [];
         for (const value of a) {
-            name = []
-            name = [value.last];
-             console.log(name.sort());
+            hash.push(value.last) 
+
         }
+        console.log(hash.sort());
+
 }
+
