@@ -14,7 +14,7 @@ const entrepreneurs = [
   ];
 
 function allH() {
-/*
+
         a = entrepreneurs.values();
         for (const value of a) {
             year = value.year
@@ -39,7 +39,7 @@ function allH() {
             age = (year - 2019);
                 console.log(age)
             
-        }*/
+        }
         a = entrepreneurs.values();
         for (const value of a) {
             name = []
